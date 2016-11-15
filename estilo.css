@@ -1,0 +1,405 @@
+/*Os diferentes navegadores possuem valores definidos para alguns elementos. 
+É util usar um "clear.css" para limpar esses valores antes de começar o desenvolvimento:  
+
+TAIS ELEMENTOS SERÃO CONFIGURADOS COM VALORES INICIAIS DE MARGIN E PADDING "0" 
+*/
+
+html, body, div, span, applet, 
+object, iframe, h1, h2, h3, h4, 
+h5, h6, p, blockquote, pre, a, 
+abbr, acronym, address, big, 
+cite, code, del, dfn, em, img, 
+ins, kbd, q, s, samp, small, 
+strike, strong, sub, sup, tt, 
+var, b, u, i, center, dl, dt, 
+dd, ol, ul, li, fieldset, form, 
+label, legend, table, caption, 
+tbody, tfoot, thead, tr, th, td, 
+article, aside, canvas, details, 
+embed, figure, figcaption, footer, 
+header, hgroup, menu, nav, output, 
+ruby, section, summary, time, mark, 
+audio, video 
+{ 
+margin: 0; 
+padding: 0; 
+}
+
+.aula10_border01 {
+	border: 1px solid black;
+}
+
+.aula10_border02 {
+	border-style: dotted;
+	border-color: red;
+	border-width: 2px;
+}
+
+.aula10_semBorda {
+	border: none;
+}
+
+.aula10_bordaInferiorSuperior {
+	border-bottom: 10px dashed green;
+	border-top: 5px outset red;
+}
+
+.aula10_bordaEsquerdaDireita {
+	border-right: 10px double blue;
+	border-left: 5px dashed black;
+}
+
+.aula11_margin01 {
+	margin: 10px;
+
+}
+
+.aula11_margin02 {
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+
+/* o padding é somado à altura, largura, esquerda ou direita do elemento */
+.aula11_padding01 {
+	padding: 10px;
+
+}
+
+.aula11_padding02 {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+.aula11_auxiliar {
+	float: left;
+	display: block;
+	width: 120px;
+	height: 120px;
+}
+
+
+/* aula 12 */
+
+/* list-style ; list-style-image; list-style-position; list-style-type */
+
+.aula12_lista {
+	/*list-style-image: url("icone.png");
+	list-style-position: inside;
+	border: 1px solid black;*/
+
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	border: 1px solid black;
+}
+/*
+li{
+	list-style-type: katakana;
+	font-size: 40px;
+
+}
+*/
+#container {
+
+	margin: auto;
+	float: center;
+}
+
+
+#div_01 {
+
+	border: 1px solid black;
+	height: 130px;
+	width: 19%;
+	color: #F0E68C;
+	font-family: "Calibri";
+	font-size: 200%;
+	text-align: center;
+	background-color: #444444;
+	margin: left;
+	margin-top: 4%;
+	border-radius: 10px;
+	border-color: transparent;
+	margin-bottom: 2%;
+	box-shadow: inset 0px 0px 100px #ADD8E6;
+	display: table;
+	float: left;
+}
+
+#div_01:hover {
+
+	border: 1px solid black;
+	height: 130px;
+	width: 19%;
+	color: #00ffff;
+	font-family: "Calibri";
+	font-size: 200%;
+	text-align: center;
+	background-color: #222222;
+	margin: auto;
+	margin-top: 4%;
+	border-radius: 10px;
+	border-color: transparent;
+	margin-bottom: 10%;
+	display: table;
+	box-shadow: inset 0px 0px 100px #00ffff;
+}
+
+#div_02 {
+
+	border: 1px solid black;
+	height: 130px;
+	width: 19%;
+	color: #00ffff;
+	font-family: "Calibri";
+	font-size: 200%;
+	text-align: center;
+	background-color: #444444;
+	margin: left;
+	margin-top: 4%;
+	border-radius: 10px;
+	border-color: transparent;
+	margin-bottom: 2%;
+	box-shadow: inset 0px 0px 100px #00FA9A;
+	display: table;
+	float: left;
+}
+
+#div_02:hover {
+
+	border: 1px solid black;
+	height: 130px;
+	width: 19%;
+	color: #00ffff;
+	font-family: "Calibri";
+	font-size: 200%;
+	text-align: center;
+	background-color: #222222;
+	margin: auto;
+	margin-top: 4%;
+	border-radius: 10px;
+	border-color: transparent;
+	margin-bottom: 10%;
+	display: table;
+	box-shadow: inset 0px 0px 100px #00ffff;
+}
+
+#div_03 {
+
+	border: 1px solid black;
+	height: 130px;
+	width: 19%;
+	color: #DAA520;
+	font-family: "Calibri";
+	font-size: 200%;
+	text-align: center;
+	background-color: #222222;
+	margin: left;
+	margin-top: 4%;
+	border-radius: 10px;
+	border-color: transparent;
+	margin-bottom: 10%;
+	display: table;
+	float: left;
+	box-shadow: inset 0px 0px 100px #DAA520;
+}
+
+
+/* o atributo :hover em css permite fazer alterações no elemento quando o usuário passa o mouse sobre o elemento
+no caso da div_03:hover - quando o mouse passa sobre a div 03, ela muda ativa o efeito box-shadow: inset;
+
+*/
+
+#div_03:hover {
+
+	border: 1px solid black;
+	height: 130px;
+	width: 19%;
+	color: #00ffff;
+	font-family: "Calibri";
+	font-size: 200%;
+	text-align: center;
+	background-color: #222222;
+	margin: auto;
+	margin-top: 4%;
+	border-radius: 10px;
+	border-color: transparent;
+	margin-bottom: 10%;
+	display: table;
+	box-shadow: inset 0px 0px 100px #00ffff;
+}
+
+#div_04 {
+
+	border: 1px solid black;
+	height: 130px;
+	width: 19%;
+	color: #00ffff;
+	font-family: "Calibri";
+	font-size: 200%;
+	text-align: center;
+	background-color: #222222;
+	margin: left;
+	margin-top: 4%;
+	border-radius: 10px;
+	border-color: transparent;
+	margin-bottom: 10%;
+	display: table;
+	float: left;
+	box-shadow: inset 0px 0px 100px #00BFFF;
+}
+
+#div_04:hover {
+
+	border: 1px solid black;
+	height: 130PX;
+	width: 19%;
+	color: #00ffff;
+	font-family: "Calibri";
+	font-size: 200%;
+	text-align: center;
+	background-color: #222222;
+	margin: auto;
+	margin-top: 4%;
+	border-radius: 10px;
+	border-color: transparent;
+	margin-bottom: 10%;
+	display: table;
+	box-shadow: inset 0px 0px 100px #00ffff;
+}
+
+#div_05 {
+
+	border: 1px solid black;
+	height: 130px;
+	width: 19%;
+	color: #00ffff;
+	font-family: "Calibri";
+	font-size: 200%;
+	text-align: center;
+	background-color: #222222;
+	margin: left;
+	margin-top: 4%;
+	border-radius: 10px;
+	border-color: transparent;
+	margin-bottom: 10%;
+	display: table;
+	float: left;
+	box-shadow: inset 0px 0px 100px #FF6347;
+}
+
+#div_05:hover {
+
+	border: 1px solid black;
+	height: 130px;
+	width: 19%;
+	color: #00ffff;
+	font-family: "Calibri";
+	font-size: 200%;
+	text-align: center;
+	background-color: #222222;
+	margin: auto;
+	margin-top: 4%;
+	border-radius: 10px;
+	border-color: transparent;
+	margin-bottom: 10%;
+	display: table;
+	box-shadow: inset 0px 0px 100px #00ffff;
+}
+/* box-shadow: permite adicionar sombras externas e internas nos boxes dos elementos HTML;
+
+SINTAXE - SOMBRA EXTERNA 
+
+	! POR PADRÃO A SOMBRA É EXTERNA NO BOX !
+
+	#a {
+		box-shadow: 20px 50px 0px 100px #FF0000;
+	}
+	LEGENDA 
+
+
+	20px - deslocamento horizontal
+
+	50px - deslocamento vertical
+
+	0px - esmaecimento
+
+	100px - propagação da sombra
+
+	#FF0000 - cor hexadecimal da sombra
+
+
+	#b {
+		box-shadow: inset 20px 50px 0px 100px #FF0000;
+	}
+	LEGENDA 
+	! PARA INSERIR SOMBRA INTERNA UTILIZE A PALAVRA "inset" !
+
+	inset - determina a sombra interna no elemento
+*/
+
+#p1	{
+	font-family: "Calibri";
+	font-size: 1.2em;
+	color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+#p2	{
+	font-family: "Calibri";
+	font-size: 1.2em;
+	color: 	#FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+
+
+}
+
+#p3	{
+	font-family: "Calibri";
+	font-size: 1.2em;
+	color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	align:center;
+}
+
+#p4	{
+	font-family: "Calibri";
+	font-size: 1.2em;
+	color: 	#FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+
+
+}
+
+
+#p5	{
+	font-family: "Calibri";
+	font-size: 1.2em;
+	color: 	#FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+
+
+}
+
+#img1 {
+	height: 8em;
+	margin: auto;
+
+
+}
+
